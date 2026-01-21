@@ -89,16 +89,16 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 70px;
+  padding: 10px 70px;
   border-bottom: 1px solid var(--border);
   box-shadow: 0 2px 8px rgba(0,0,0,0.05);
 }
 
-.header .logo {
-  font-family: 'Playfair Display', serif;
-  font-size: 1.7rem;
-  font-weight: 700;
+.header .logo img {
+    height: 50px;
+    width: auto;
 }
+
 
 .header nav a {
   margin-left: 35px;
